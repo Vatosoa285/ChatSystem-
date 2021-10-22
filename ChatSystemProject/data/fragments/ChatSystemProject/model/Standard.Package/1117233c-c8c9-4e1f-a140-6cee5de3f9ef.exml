@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="chatsystemproject" version="4">
+  <OBJECT>
+    <ID name="chatsystemproject" mc="Standard.Package" uid="1117233c-c8c9-4e1f-a140-6cee5de3f9ef"/>
+    <PID name="ChatSystemProject" mc="Standard.Project" uid="43fc880e-673c-4e3e-a1b7-8f782b16609b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[chatsystemproject]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Actor" uid="0a91e2d8-1c53-4336-a564-c27062f5d46b"/>
+        <COMPID name="choose_pseudo" mc="Standard.UseCase" uid="1eec2550-3364-47eb-b5c3-1d5183abd315"/>
+        <COMPID name="check_pseudo_unicity" mc="Standard.UseCase" uid="cf928650-5684-427d-bf6d-aa6a0ca28835"/>
+        <COMPID name="identify_all_users" mc="Standard.UseCase" uid="724a4b8d-cb31-4100-913e-28498aff2b31"/>
+        <COMPID name="change_pseudo" mc="Standard.UseCase" uid="e2e7db8d-e7f1-4824-a350-31f6b063638f"/>
+        <COMPID name="clock_system" mc="Standard.Actor" uid="aecf0818-3a13-46c8-8239-6fd8d1f2caa3"/>
+        <COMPID name="communicating_system" mc="Standard.Actor" uid="26f111b9-f838-4d09-a9cd-a9c63f4a06ca"/>
+        <COMPID name="clock_system" mc="Standard.Actor" uid="cd9b2f46-0677-4455-822b-809004cd8ab6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation chatsystemproject" mc="Standard.UseCaseDiagram" uid="70c5fe02-09f7-42d9-8bd3-31d474748e27"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
