@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="horodate_msg" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Send_msg" version="4">
   <OBJECT>
-    <ID name="horodate_msg" mc="Standard.UseCase" uid="4cf645e9-297e-495a-9688-7fb7131e5719"/>
+    <ID name="Send_msg" mc="Standard.UseCase" uid="06640892-8f3b-4947-b68f-823a9e51a167"/>
     <PID name="chatsystemproject" mc="Standard.Package" uid="1117233c-c8c9-4e1f-a140-6cee5de3f9ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,20 +9,20 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[horodate_msg]]></ATT>
+      <ATT name="Name"><![CDATA[Send_msg]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="9470bbb9-e7ff-4297-b4e9-4e5ab4c9b758"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="687c3e64-dce6-4f1c-91ee-fc002436398a"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Send_msg" mc="Standard.UseCase" uid="06640892-8f3b-4947-b68f-823a9e51a167"/>
+              <ID name="chooseActiveUser" mc="Standard.UseCase" uid="10f35e13-878a-44a7-b366-492014180d0c"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -32,7 +32,7 @@
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f2d68a87-b251-4703-99a3-1dee1852e4de"/>
+          <ID name="" mc="Infrastructure.Note" uid="9bcdffb9-f3ce-47bf-bb98-8df0ad563b0d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -46,7 +46,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="e9d2f094-b628-4736-aa15-aa0877a69f4e"/>
+          <ID name="" mc="Infrastructure.Note" uid="10311545-8b3d-47cf-b6d7-81413816aa10"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -60,7 +60,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="db5b9b69-dc21-42b0-9073-6aa8d220a2b1"/>
+          <ID name="" mc="Infrastructure.Note" uid="a201ed81-9bfe-416a-af00-abb9804abed4"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -74,7 +74,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="e0206363-c050-4c74-a915-a694803f6336"/>
+          <ID name="" mc="Infrastructure.Note" uid="04e4312b-aabd-4a80-bbd0-f5711609937e"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -88,7 +88,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="d3b4f0e6-bf3c-4539-af34-3b22aea8f866"/>
+          <ID name="" mc="Infrastructure.Note" uid="a02340a0-5635-4ccf-80dc-c690a2c97320"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +102,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1273f145-2191-4948-882c-2bc2df7d9eaa"/>
+          <ID name="" mc="Infrastructure.Note" uid="265fc33a-a3c7-4abf-9add-7fb8ef5f7697"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

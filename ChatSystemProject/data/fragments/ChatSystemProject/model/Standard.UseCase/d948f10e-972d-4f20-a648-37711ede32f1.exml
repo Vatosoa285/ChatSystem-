@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="horodate_msg" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notify_received_msg" version="4">
   <OBJECT>
-    <ID name="horodate_msg" mc="Standard.UseCase" uid="4cf645e9-297e-495a-9688-7fb7131e5719"/>
+    <ID name="notify_received_msg" mc="Standard.UseCase" uid="d948f10e-972d-4f20-a648-37711ede32f1"/>
     <PID name="chatsystemproject" mc="Standard.Package" uid="1117233c-c8c9-4e1f-a140-6cee5de3f9ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,30 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[horodate_msg]]></ATT>
+      <ATT name="Name"><![CDATA[notify_received_msg]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Used">
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="9470bbb9-e7ff-4297-b4e9-4e5ab4c9b758"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Send_msg" mc="Standard.UseCase" uid="06640892-8f3b-4947-b68f-823a9e51a167"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f2d68a87-b251-4703-99a3-1dee1852e4de"/>
+          <ID name="" mc="Infrastructure.Note" uid="2e264ca5-225b-40dc-825c-8d1ce34be9a5"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -46,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="e9d2f094-b628-4736-aa15-aa0877a69f4e"/>
+          <ID name="" mc="Infrastructure.Note" uid="8c71a03d-480a-4b25-89ff-94d8dae8a22f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -60,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="db5b9b69-dc21-42b0-9073-6aa8d220a2b1"/>
+          <ID name="" mc="Infrastructure.Note" uid="2035f535-2e4f-41a8-9ac0-00e6ed5ee766"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -74,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="e0206363-c050-4c74-a915-a694803f6336"/>
+          <ID name="" mc="Infrastructure.Note" uid="287657c5-390a-43c8-bee1-d1040f9dcdd0"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -88,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="d3b4f0e6-bf3c-4539-af34-3b22aea8f866"/>
+          <ID name="" mc="Infrastructure.Note" uid="91d542ba-f48c-4921-b90d-46f3b395bc02"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1273f145-2191-4948-882c-2bc2df7d9eaa"/>
+          <ID name="" mc="Infrastructure.Note" uid="55469ef8-eecf-464b-8ff2-0ff47e707da8"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
