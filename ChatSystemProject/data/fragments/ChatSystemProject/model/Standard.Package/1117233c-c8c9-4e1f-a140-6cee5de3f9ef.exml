@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="Interaction" mc="Standard.Interaction" uid="6339aecc-a35b-4053-998b-b82fb1e04564"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="c8a28337-dab0-402c-acfe-acfdacca93ac"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="User" mc="Standard.Actor" uid="0a91e2d8-1c53-4336-a564-c27062f5d46b"/>
@@ -28,15 +29,15 @@
         <COMPID name="horodate_msg" mc="Standard.UseCase" uid="4cf645e9-297e-495a-9688-7fb7131e5719"/>
         <COMPID name="end_clavardage" mc="Standard.UseCase" uid="94bf807c-7eaa-4c17-afaf-3caae2a7329a"/>
         <COMPID name="start_newSession" mc="Standard.UseCase" uid="8ba2dec4-9087-425b-a1aa-ae4baaa27281"/>
-        <COMPID name="make_history" mc="Standard.UseCase" uid="e1dc4df8-723c-414a-8f0b-7a66b48bb1b2"/>
-        <COMPID name="vizualize_history" mc="Standard.UseCase" uid="c1bf902b-337c-4420-80fb-1bf2e9773685"/>
-        <COMPID name="connect" mc="Standard.UseCase" uid="6b636171-7fd0-457f-9a0b-6821711ac181"/>
+        <COMPID name="register_history" mc="Standard.UseCase" uid="e1dc4df8-723c-414a-8f0b-7a66b48bb1b2"/>
+        <COMPID name="Get_history" mc="Standard.UseCase" uid="c1bf902b-337c-4420-80fb-1bf2e9773685"/>
         <COMPID name="reduce_agent" mc="Standard.UseCase" uid="30160cb9-5f07-4013-85a5-25841767bc68"/>
         <COMPID name="disconnect" mc="Standard.UseCase" uid="8ff1a3a0-06b9-4f98-b3d9-c4a5e2f79ad1"/>
         <COMPID name="notify_pseudo_changed" mc="Standard.UseCase" uid="81c6650f-7d71-4b54-8dbd-a2d2f0f096cd"/>
         <COMPID name="chooseActiveUser" mc="Standard.UseCase" uid="10f35e13-878a-44a7-b366-492014180d0c"/>
         <COMPID name="Send_msg" mc="Standard.UseCase" uid="06640892-8f3b-4947-b68f-823a9e51a167"/>
-        <COMPID name="notify_received_msg" mc="Standard.UseCase" uid="d948f10e-972d-4f20-a648-37711ede32f1"/>
+        <COMPID name="receive_msg" mc="Standard.UseCase" uid="d948f10e-972d-4f20-a648-37711ede32f1"/>
+        <COMPID name="notify_all_users" mc="Standard.UseCase" uid="e7371a8f-6318-49aa-8d8d-44573c0d863c"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation chatsystemproject" mc="Standard.UseCaseDiagram" uid="70c5fe02-09f7-42d9-8bd3-31d474748e27"/>

@@ -15,17 +15,17 @@
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="651977a2-0cc2-4e1f-b75a-7c9ef6ce80a1"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1f1a4f73-ecca-47bd-9a7e-56514647eb65"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="choose_pseudo" mc="Standard.UseCase" uid="1eec2550-3364-47eb-b5c3-1d5183abd315"/>
+              <ID name="check_pseudo_unicity" mc="Standard.UseCase" uid="cf928650-5684-427d-bf6d-aa6a0ca28835"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

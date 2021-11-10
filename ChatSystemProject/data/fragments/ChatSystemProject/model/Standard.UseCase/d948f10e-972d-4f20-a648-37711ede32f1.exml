@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notify_received_msg" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="receive_msg" version="4">
   <OBJECT>
-    <ID name="notify_received_msg" mc="Standard.UseCase" uid="d948f10e-972d-4f20-a648-37711ede32f1"/>
+    <ID name="receive_msg" mc="Standard.UseCase" uid="d948f10e-972d-4f20-a648-37711ede32f1"/>
     <PID name="chatsystemproject" mc="Standard.Package" uid="1117233c-c8c9-4e1f-a140-6cee5de3f9ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[notify_received_msg]]></ATT>
+      <ATT name="Name"><![CDATA[receive_msg]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

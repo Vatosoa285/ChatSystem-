@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="make_history" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="register_history" version="4">
   <OBJECT>
-    <ID name="make_history" mc="Standard.UseCase" uid="e1dc4df8-723c-414a-8f0b-7a66b48bb1b2"/>
+    <ID name="register_history" mc="Standard.UseCase" uid="e1dc4df8-723c-414a-8f0b-7a66b48bb1b2"/>
     <PID name="chatsystemproject" mc="Standard.Package" uid="1117233c-c8c9-4e1f-a140-6cee5de3f9ef"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,20 +9,20 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[make_history]]></ATT>
+      <ATT name="Name"><![CDATA[register_history]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="9f3bcb11-7b5f-478f-8d20-8b458aa9ac33"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="a2293ae0-51a8-478b-858f-8928aa66355c"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="horodate_msg" mc="Standard.UseCase" uid="4cf645e9-297e-495a-9688-7fb7131e5719"/>
+              <ID name="Send_msg" mc="Standard.UseCase" uid="06640892-8f3b-4947-b68f-823a9e51a167"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
